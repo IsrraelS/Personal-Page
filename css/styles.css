@@ -3,7 +3,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color:bisque;
+    background-color:whitesmoke;
 }
 
 .cntHeader{
@@ -17,7 +17,7 @@ body{
 
 .cntName{
     width: 79em;
-    height: 15em;
+    height: 10em;
     display: flex;
     justify-content: center;
     align-items: center;;
@@ -34,18 +34,12 @@ body{
 
 .cntNav{
     width: 79em;
-    height: 2.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.cntNav{
-    width: 79em;
     height: 1.6em;
     background-color:white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    margin-left: 1em;
 }
 
 .navPhotography{
@@ -68,14 +62,55 @@ body{
 
 .cntMain{
     width: 79em;
-    height: 30em;
-    background-color: blanchedalmond;
+    height: 32em;
+    background-image: url(/img/geometric1.jpg);
+    /*border: 0.5px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cntCenter{
+    width: 54em;
+    height: 32em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.mark1{
+    width: 40em;
+    height: 24em;
+    border: 0.5px solid black;
+}
+
+.cntAside{
+    width: 26em;
+    height: 32em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.mark2{
+    width: 16em;
+    height: 20em;
+    border: 0.5px solid black;
+    margin-top: -11em;
+    background-color: dimgray;
+}
+
+.mark3{
+    width: 20em;
+    height: 10em;
     border: 0.5px solid black;
 }
 
 .cntFooter{
     width: 79em;
     height: 10em;
-    background-color: slategray;
     border: 0.5px solid black;
 }
