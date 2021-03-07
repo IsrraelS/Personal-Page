@@ -3,13 +3,13 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color:whitesmoke;
+    background-color:white;
 }
 
 .cntHeader{
     width: 79em;
-    height: 20em;
-    background-color: white;
+    height: 25em;
+    background-image:url(/img/patron--hexagona.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,6 +27,7 @@ body{
     height: 6em;
     width: 22em;
     border: 0.5px solid black;
+    background-color: white;
     text-align: center;
     padding: 1.3em;
     text-align: center;
@@ -35,7 +36,6 @@ body{
 .cntNav{
     width: 79em;
     height: 1.6em;
-    background-color:white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,55 +62,83 @@ body{
 
 .cntMain{
     width: 79em;
-    height: 32em;
-    background-image: url(/img/geometric1.jpg);
+    height: 80em;
     /*border: 0.5px solid black;*/
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
-.cntCenter{
-    width: 54em;
-    height: 32em;
+.cntAbout{
+    width: 79em;
+    height: 50em;
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+    flex-direction:column;
+    justify-content:center;
     align-items: center;
+    text-align: justify;
+}
+
+.boxAbout{
+    height: 5em;
+    width: 12.5em;
+    border: 0.5px solid black;
+    text-align: center;
 }
 
 .mark1{
     width: 40em;
     height: 24em;
-    border: 0.5px solid black;
+    /*border: 0.5px solid black;*/
+    background-color: white;
 }
 
-.cntAside{
-    width: 26em;
-    height: 32em;
+.cntPflo{
+    width: 79em;
+    height: 30em;
+    border: 0.2px solid black;
+    background-color: black;
+}
+
+.cntSrv{
+    width: 79em;
+    height: 30em;
     display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
+    flex-direction: row;
     align-items: center;
 }
 
-.mark2{
-    width: 16em;
-    height: 20em;
-    border: 0.5px solid black;
-    margin-top: -11em;
-    background-color: dimgray;
+.boxSrv1{
+    width: 39.5em;
+    height: 30em;
+    background-color:black;
+}
+.boxSrv2{
+    width: 39.5em;
+    height: 30em;
+    background-color: white;
 }
 
-.mark3{
-    width: 20em;
-    height: 10em;
-    border: 0.5px solid black;
+/*.cntExperience{
+    width: 79em;
+    height: 40em;
+    background-image: url(/img/fisuras-patron-geometrico-basado-adornos-japoneses-kumiko_117445-50.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-align: justify;
 }
+
+.mark2{
+    width: 40em;
+    height: 24em;
+    border: 0.5px solid black;
+    background-color: white;
+}*/
 
 .cntFooter{
     width: 79em;
     height: 10em;
     border: 0.5px solid black;
+    background-color:dimgrey;
 }
