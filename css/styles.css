@@ -17,7 +17,7 @@ body{
 
 .cntNav{
     width: 79em;
-    height: 2.7em;
+    height: 3em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,30 +29,42 @@ body{
 }
 
 .navPhotography{
-    width: 10em;
+    width: 8em;
     height: 2,6em;
     text-align: center;
+    border: 0.2px solid goldenrod;
+    border-radius: 2px;
     color: white;
 }
 
+.navPhotography :hover{
+    color: goldenrod;
+}
+
 .navDesingApp{
-    width: 10em;
+    width: 8em;
     height: 2,6em;
     text-align: center;
+    border: 0.2px solid goldenrod;
+    border-radius: 2px;
     color: white;
 }
 
 .navExperience{
-    width: 10em;
+    width: 8em;
     height: 2,6em;
     text-align: center;
+    border: 0.2px solid goldenrod;
+    border-radius: 2px;
     color: white;
 }
 
 .navContac{
-    width: 10em;
+    width: 8em;
     height: 2,6em;
     text-align: center;
+    border: 0.2px solid goldenrod;
+    border-radius: 2px;
     color: white;
 }
 
@@ -60,11 +72,10 @@ body{
     text-decoration-line: none;
     color: white;
 }
-
+/*
 .txtNav :hover{
-    text-decoration-color: goldenrod;
-    transform: scale(1.5);
-}
+    color: goldenrod;
+}*/
 
 .cntName{
     width: 79em;
