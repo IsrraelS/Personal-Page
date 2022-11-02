@@ -7,9 +7,10 @@ body{
 }
 
 .cntHeader{
+    background-image:url("../img/pattern-geometrico.jpg");
+    background-size: cover; 
     width: 79em;
     height: 25em;
-    background-image:url(/img/patron--hexagona.jpg);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -159,11 +160,18 @@ body{
     border: 5px solid white;
     display: flex;
     justify-content: space-evenly; 
-    padding: 1em;   
+    padding: 1em;  
+
 }
 
 .boxPhoto :hover{
     border: 5px solid goldenrod;
+}
+
+.cameraPhoto{
+    width: 230px;
+    height: 275px;
+    margin-top: -5px;
 }
 
 .txtPhoto{
@@ -212,6 +220,12 @@ body{
 .txtDvlp :hover{
     font-size: 45px;
     text-shadow: 5px 5px goldenrod;
+}
+
+.imgDev{
+    width: 275px;
+    height: 275px;
+    margin-top: -5px;
 }
 
 .txtPfl{
