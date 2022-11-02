@@ -9,13 +9,14 @@ body{
 .cntHeader{
     background-image:url("../img/los-triángulos-inconsútiles-del-vector-modelan-maorí-étnico-estilo-de-japón-textura-moderna-repetición-las-tejas-153236448.jpg");
     background-attachment: fixed;
-    height: 25em;
+    height: 19em;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
 .cntNav{
+    width: 100%;
     height: 3em;
     display: flex;
     flex-direction: row;
@@ -25,6 +26,7 @@ body{
     margin-top: 0px;
     padding: 0px;
     font-style: none;
+    position: fixed;
 }
 
 .navPhotography{
@@ -127,13 +129,13 @@ body{
 }
 
 .cntPflo{
-    height: 30em;
+    height: 45em;
     background-color: black;
 }
 
 .cntSrv{
 
-    height: 30em;
+    height: 45em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -141,7 +143,7 @@ body{
 
 .boxSrv1{
     width: 50%;
-    height: 30em;
+    height: 45em;
     background-color:black;
     display: flex;
     flex-direction: column;
@@ -185,7 +187,7 @@ body{
 
 .boxSrv2{
     width: 50%;
-    height: 30em;
+    height: 45em;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -194,7 +196,7 @@ body{
 }
 
 .boxDeveloper{
-    background-image: url(../img/imageDev2.jpg);
+    background-image: url(../img/Computer_developer.jpg);
     background-size: cover;
     width: 19em;
     height: 19em;
